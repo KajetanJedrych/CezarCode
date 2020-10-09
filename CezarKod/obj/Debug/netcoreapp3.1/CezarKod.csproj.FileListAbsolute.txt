@@ -1,0 +1,13 @@
+D:\c#\CezarKod\CezarKod\bin\Debug\netcoreapp3.1\CezarKod.exe
+D:\c#\CezarKod\CezarKod\bin\Debug\netcoreapp3.1\CezarKod.deps.json
+D:\c#\CezarKod\CezarKod\bin\Debug\netcoreapp3.1\CezarKod.runtimeconfig.json
+D:\c#\CezarKod\CezarKod\bin\Debug\netcoreapp3.1\CezarKod.runtimeconfig.dev.json
+D:\c#\CezarKod\CezarKod\bin\Debug\netcoreapp3.1\CezarKod.dll
+D:\c#\CezarKod\CezarKod\bin\Debug\netcoreapp3.1\CezarKod.pdb
+D:\c#\CezarKod\CezarKod\obj\Debug\netcoreapp3.1\CezarKod.csprojAssemblyReference.cache
+D:\c#\CezarKod\CezarKod\obj\Debug\netcoreapp3.1\CezarKod.csproj.CoreCompileInputs.cache
+D:\c#\CezarKod\CezarKod\obj\Debug\netcoreapp3.1\CezarKod.AssemblyInfoInputs.cache
+D:\c#\CezarKod\CezarKod\obj\Debug\netcoreapp3.1\CezarKod.AssemblyInfo.cs
+D:\c#\CezarKod\CezarKod\obj\Debug\netcoreapp3.1\CezarKod.dll
+D:\c#\CezarKod\CezarKod\obj\Debug\netcoreapp3.1\CezarKod.pdb
+D:\c#\CezarKod\CezarKod\obj\Debug\netcoreapp3.1\CezarKod.genruntimeconfig.cache
