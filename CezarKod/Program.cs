@@ -21,7 +21,7 @@ namespace CezarKod
             {
                 ConsoleKeyInfo keyInfo;
                 do
-                  keyInfo = input ;
+                  keyInfo =  ;
                     if (keyInfo.KeyChar >= 65 && keyInfo.KeyChar <= 90)
                     {
                         char znak = (char)(((keyInfo.KeyChar - 62) % 28) + 65);
