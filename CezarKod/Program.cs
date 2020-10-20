@@ -1,42 +1,56 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
-namespace CezarKod
+namespace Caesar_Cipher
 {
     class Program
     {
-        static void Main(string[] args)
+
+
+        public static char cipher(char ch, int key = 3)
         {
-            string input;
-            while ((input = Console.ReadLine()) != null && input != "")
+            if (!char.IsLetter(ch))
             {
-                
 
-                char[] arr;
-                arr = input.ToCharArray(0, input.Length);
-
-                foreach (var item in arr) 
-                {
-                    Console.Write(Convert.ToChar((item - 'A' + 3) % ('X' - 'A' + 3) + 'A'));
-                } 
-                
+                return ch;
             }
 
+            char d = char.IsUpper(ch) ? 'A' : 'a';
+            return (char)((((ch + key) - d) % 26) + d);
+
+
+        }
+
+
+        public static string Encipher(string input, int key = 3)
+        {
+            string output = string.Empty;
+
+            foreach (char ch in input)
+                output += cipher(ch, key);
+
+            return output;
+        }
 
 
 
+        static void Main(string[] args)
+        {
 
-           // for (int i = 0; i <= input.Length; i++)
-           // {
-               // ConsoleKeyInfo keyInfo;
-               // do
-                 // keyInfo =  ;
-                  //  if (keyInfo.KeyChar >= 65 && keyInfo.KeyChar <= 90)
-                    //{
-                     //   char znak = (char)(((keyInfo.KeyChar - 62) % 28) + 65);
-                     //  Console.WriteLine(znak);
-                   // }
-                  //  while (keyInfo.Key != ConsoleKey.Escape);
-           // }
+            string UserString;
+
+            while ((UserString = Console.ReadLine()) != null && UserString != "")
+            {
+
+                int key = 3;
+
+                string cipherText = Encipher(UserString, key);
+                Console.WriteLine(cipherText);
+            }
+            Console.ReadKey();
+
         }
     }
 }
